@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2049dd">
+  <meta name="description" content="Конструктор «Своей игры»: свои вопросы, сохранение проектов, пульт ведущего и отдельный экран для зрителей.">
+  <title>Своя — студия викторин</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+  <div id="app"><div class="loading">Открываем студию…</div></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal"></dialog>
+  <input id="import-file" type="file" accept=".json,.svoya,application/json" hidden>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
